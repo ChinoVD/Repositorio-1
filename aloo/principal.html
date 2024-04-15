@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="tarjeta.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"> <!--todo lo que tiene que ver con el logo--> 
+        <i class="fa-solid fa-computer"></i>
+        <a href="principal.html">¡La tiendita!</a>
+      </div>
+      <div class="menu">
+        <div class="menu-links">
+          <a href="principal.html">Inicio</a>
+          <a href="prductos.html">Productos</a>
+          <a href="contacto.html">Contacto</a>
+          <a href="anuncios.html">Anuncios</a>
+        </div>
+        <button class="log-in" onclick="window.location.href='inicioSesion.html'">Iniciar Sesión</button> <!-- esto esta con javascript, para cuando se clickea el boton se diria a la pagina referenciada --> 
+      </div>
+      <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    
+    
+    <div class="container">       
+      <div class="profile-wrapper">
+          <div class="profile">
+              <div class="profile-image">
+                  <img
+                      src="preentreno.jpeg"
+                      alt="Profile"
+                  >
+              </div>
+              <ul class="social-icons">
+                  <li>
+                      <a href="#" title="Pre-Entreno">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                               stroke-linecap="round" stroke-linejoin="round"
+                          >
+                              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                              <path d="M32 32C32 14.3 46.3 0 64 0H256c17.7 0 32 14.3 32 32s-14.3 32-32 32H64C46.3 64 32 49.7 32 32zM0 160c0-35.3 28.7-64 64-64H256c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V160zm96 64c-17.7 0-32 14.3-32 32v96c0 17.7 14.3 32 32 32H224c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32H96z"></path>
+                              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                          </svg>
+                      </a>
+                  </li>
+                  
+                  <li>
+                      <a href="#" title="Proteina De Leche">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+                               viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                               fill="none" stroke-linecap="round" stroke-linejoin="round"
+                          >
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 
+                                       2 0 0 1 -2 -2z">
+                              </path>
+                              <path d="M8 11l0 5"></path>
+                              <path d="M8 8l0 .01"></path>
+                              <path d="M12 16l0 -5"></path>
+                              <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                           </svg>
+                      </a>
+                  </li>
+              </ul>
+              <div class="profile-name">
+                  <h2>Pre-Entreno ChaquetitaTeam</h2>
+                  <div class="profile-bio">
+                      Consigue el maximo rendimiento con la nueva formula del Dr.Kappita
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+  </body>
+</html>
