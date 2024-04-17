@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="barranavegadora.css">
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"> <!--todo lo que tiene que ver con el logo--> 
+          <i class="fa-solid fa-computer"></i>
+          <a href="principal.html">¡La tiendita!</a>
+        </div>
+        <div class="menu">
+          <div class="menu-links">
+            <a href="principal.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="carrito.html">Carrito</a>
+          </div>
+          <button class="log-in" onclick="window.location.href='inicioSesion.html'">Iniciar Sesión</button> <!-- esto esta con javascript, para cuando se clickea el boton se diria a la pagina referenciada --> 
+        </div>
+        <div class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <div class="contacto">
+        <h2>Contacto</h2>
+        <div class="info-contacto">
+            <p><strong>Nombre del dueño:</strong> Ignacio Cornejo</p>
+            <p><strong>Correo:</strong> completos2212@gmail.com</p>
+            <p><strong>WhatsApp:</strong> +569 2368 4125</p>
+        </div>
+
+        <h3>Registrar WhatsApp</h3>
+        <form action="#" method="POST" class="formulario">
+        <label for="whatsapp">Compras por mayor? Ingresa tu número y nos pondremos en contacto contigo:</label>
+        <input type="text" id="whatsapp" name="whatsapp" required placeholder="Ingrese su WhatsApp">
+        <button type="submit">Enviar</button>
+</body>
+</html>

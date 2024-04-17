@@ -1,0 +1,6 @@
+.titulo {
+    display: flex; /*hace al contendor flexible*/
+    color: rgb(255, 255, 255);
+    width: 300px; /*ancho del div*/
+    margin: 0 auto; /*margen automatico a la izquierda y derecha*/
+}
